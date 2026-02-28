@@ -1,5 +1,119 @@
-<html>
-  <body>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+</head>
+<body>
+
+  <main>
+
+    <!-- Current Weather Card -->
+    <section aria-labelledby="current-weather-heading">
+      <header>
+        <h1 id="current-weather-heading">Monday</h1>
+        <time datetime="2022-06-20">20 Jun 2022</time>
+      </header>
+
+      <figure>
+        <img src="weather-icon-sunny.svg" alt="Sunny weather icon" />
+      </figure>
+
+      <p>
+        <strong>29°C</strong>
+      </p>
+      <p>Sunny</p>
+    </section>
+
+    <!-- Weather Details and Forecast -->
+    <section aria-labelledby="weather-details-heading">
+
+      <h2 id="weather-details-heading">Weather Details</h2>
+
+      <dl>
+        <div>
+          <dt>Precipitation</dt>
+          <dd>0%</dd>
+        </div>
+        <div>
+          <dt>Humidity</dt>
+          <dd>42%</dd>
+        </div>
+        <div>
+          <dt>Wind</dt>
+          <dd>3 km/h</dd>
+        </div>
+      </dl>
+
+      <!-- Weekly Forecast -->
+      <section aria-labelledby="forecast-heading">
+        <h3 id="forecast-heading">Weekly Forecast</h3>
+
+        <ul>
+          <li>
+            <article>
+              <header>
+                <h4>Tuesday</h4>
+              </header>
+              <figure>
+                <img src="weather-icon-sunny.svg" alt="Sunny weather icon" />
+              </figure>
+              <p><strong>30°C</strong></p>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <header>
+                <h4>Wednesday</h4>
+              </header>
+              <figure>
+                <img src="weather-icon-cloudy.svg" alt="Partly cloudy weather icon" />
+              </figure>
+              <p><strong>22°C</strong></p>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <header>
+                <h4>Thursday</h4>
+              </header>
+              <figure>
+                <img src="weather-icon-rainy.svg" alt="Rainy weather icon" />
+              </figure>
+              <p><strong>6°C</strong></p>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <header>
+                <h4>Friday</h4>
+              </header>
+              <figure>
+                <img src="weather-icon-sunny.svg" alt="Sunny weather icon" />
+              </figure>
+              <p><strong>26°C</strong></p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Location -->
+      <footer>
+        <address>
+          <p>
+            <span aria-hidden="true">📍</span>
+            New York City
+          </p>
+        </address>
+      </footer>
+
+    </section>
+
+  </main>
+
+</body>
 </html>
