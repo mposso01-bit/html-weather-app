@@ -1,0 +1,52 @@
+:root {
+    
+    /* Font Sizes */
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-32: 32px;
+    --font-size-34: 34px;
+    --font-size-36: 36px;
+    --border-radius-30: 30px;
+    --border-radius-25: 20px;
+    --border-radius-15: 10px;
+    --font-family-montserrat: 'Montserrat', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+
+    /* colors */
+    --purple-dark-100: #1E1E1E;
+    --white-100: #FFFFFF;
+
+    /* typogrphy */
+    --primary-text-color: var(--white-100);
+
+    /* Text sizes */
+    --regular-text: var(--font-size-22);
+
+    /* Heading Sizes */
+    --heading-sm: var(--font-size-18);
+    --heading-md: var(--font-size-22);
+    --heading-lg: var(--font-size-28);
+
+    /* Heading Fonts */
+    --heading-font-primary: var(--font-family-robot);
+    /* --heading-font-secondary: var(--font-family-roboto); */
+
+    /* Border radius */
+    --border-round-day-panel: var(--border-radius-30);
+    --border-round-day-forecast-panel: var(--border-radius-30);
+    --border-radius-day: var(--border-radius-10);
+    --border-radius-button: var(--border-radius-10);
+    
+    /* Design */
+    --app-background-color: var(--purple-dark-100);
+
+
+}
